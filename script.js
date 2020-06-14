@@ -1,3 +1,4 @@
+$(document).ready(function(){
 const tl = new TimelineMax({
       paused: true
     });
@@ -107,3 +108,4 @@ const tl = new TimelineMax({
     .to('#cloud-5', 2, {ease: Power4.easeInOut, x:30}, 3)
     .to('#cloud-5', 2, {opacity: 0}, 3)
     .play();
+    });
